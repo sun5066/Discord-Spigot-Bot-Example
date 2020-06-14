@@ -15,7 +15,7 @@ public class BotConnect {
         JDABuilder jb = new JDABuilder(AccountType.BOT);
         jb.setAutoReconnect(true);
         jb.setStatus(OnlineStatus.ONLINE);
-        jb.setToken("NzIxNTY0ODkxOTY1Njg1ODMw.XuWYLA.FdUKABKaRSWI71-5L6iXOAdr2bI");
+        jb.setToken("Token 입력");
         jb.addEventListeners(new BotListener());
 
         try {
